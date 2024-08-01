@@ -1,0 +1,15 @@
+---
+title: "R-Markdown-and-Leaflet-Map-"
+author: "DOUNIA NASIR"
+output: 
+  html_document:
+    self_contained: true
+date: "`02/08/2024`"
+---
+
+## Interactive Map
+
+Below is an interactive map created with Leaflet:
+
+```{r setup, include=FALSE}
+library(leaflet)
