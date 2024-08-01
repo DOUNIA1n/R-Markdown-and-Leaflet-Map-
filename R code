@@ -1,0 +1,4 @@
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng = -122.4194, lat = 37.7749, popup = "San Francisco") %>%
+  setView(lng = -122.4194, lat = 37.7749, zoom = 12)
