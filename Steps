@@ -1,0 +1,36 @@
+### Step 1: Write the code
+
+### Step 2: Render Your R Markdown Document
+
+Open your R Markdown file in RStudio and click the "Knit" button to render the document to HTML.
+
+### Step 3: Set Up GitHub Pages
+
+1. **Create a GitHub Repository:**
+
+   Go to [GitHub](https://github.com) and create a new repository.
+
+2. **Add Your Files to the Repository:**
+
+3. **Enable GitHub Pages:**
+
+   - Go to the repository's **Settings**.
+   - Scroll down to the **Pages** section.
+   - Under "Source," select the branch where you uploaded the HTML file (e.g., `main` or `master`).
+   - Save the changes. GitHub will provide a URL where your page will be hosted.
+
+### Step 4: Verify Your Web Page
+
+Check the GitHub Pages URL provided in the settings. Ensure the page displays the date and the Leaflet map as expected.
+
+### Step 5: Verify Rubric Requirements
+
+1. **Date Check:**
+   - Ensure the date in the R Markdown file (`date: "`r Sys.Date()`"`) is current and less than two months before today’s date.
+
+2. **Map Check:**
+   - Confirm the map is interactive and has been created using Leaflet.
+
+
+
+By following these steps, you should have a web page featuring a date and an interactive Leaflet map, hosted on GitHub Pages. Feel free to get creative with additional features or map customizations!
